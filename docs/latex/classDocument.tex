@@ -1,0 +1,194 @@
+\doxysection{Document Class Reference}
+\hypertarget{classDocument}{}\label{classDocument}\index{Document@{Document}}
+
+
+Класс \doxylink{classDocument}{Document} Отвечает за работу с документом\+: создание документа, удаление, чтение. А также отвечает за работу с примитивами документа\+: добавление, удаление, чтение.  
+
+
+
+
+Collaboration diagram for Document\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=232pt]{classDocument__coll__graph}
+\end{center}
+\end{figure}
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classDocument_acdbcbe550084e8c20f4f67eb229ad66a}{Document}} ()
+\begin{DoxyCompactList}\small\item\em Конструктор по умолчанию \end{DoxyCompactList}\item 
+\mbox{\hyperlink{classDocument_a9f8c1a77ca345b891b845db765889f7e}{Document}} (string name\+\_\+, string format\+\_\+, string patch\+\_\+)
+\begin{DoxyCompactList}\small\item\em Конструктор с параметрами \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classDocument_a1a8a06cf3b126c2d6eb27eeb861c0606}{set\+Name}} (const string \&name\+\_\+)
+\item 
+void \mbox{\hyperlink{classDocument_a733c1d77fc0e9b00e15947d1e90cd6d8}{set\+Patch}} (const string \&patch\+\_\+)
+\item 
+void \mbox{\hyperlink{classDocument_a68eeaa91d1fc3a01a88ca171f03d4a57}{set\+Format}} (const string \&format\+\_\+)
+\item 
+string \mbox{\hyperlink{classDocument_abb7c2f488c4bf30eb250f438e92e74c8}{get\+Name}} () const
+\item 
+string \mbox{\hyperlink{classDocument_a0830e64c27c572e4c34f0c934bdb97f2}{get\+Patch}} () const
+\item 
+string \mbox{\hyperlink{classDocument_af65c5e037c40327b49d56c68698720e3}{get\+Format}} () const
+\item 
+string \mbox{\hyperlink{classDocument_aed327ba907ab0ac17221cc27152c48d5}{get\+Information\+Document}} ()
+\begin{DoxyCompactList}\small\item\em Функция вывода информации о документе. \end{DoxyCompactList}\item 
+string \mbox{\hyperlink{classDocument_a4173b0b1960bc9dc7c04a3b71ee0599b}{get\+Primitive}} ()
+\begin{DoxyCompactList}\small\item\em Функция возвращение списка примитивов, содержащихся в документе. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classDocument_a0e3bed391336bedbc2622b5835ec4fb6}{add\+Shape}} (std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classShape}{Shape}} $>$ sh)
+\begin{DoxyCompactList}\small\item\em Функция добавления примитива. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classDocument_a5b72fa6117f2fe1d736cf1804737f6b3}{remove\+Shape}} (int pos)
+\begin{DoxyCompactList}\small\item\em Функция удаления примитива. \end{DoxyCompactList}\item 
+int \mbox{\hyperlink{classDocument_a9f59c0e9ce5b0dbf9e89cdc2e132975c}{get\+Shapes\+Size}} ()
+\begin{DoxyCompactList}\small\item\em Функция возвращает количество приитивов, содержашихся в документе. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Класс \doxylink{classDocument}{Document} Отвечает за работу с документом\+: создание документа, удаление, чтение. А также отвечает за работу с примитивами документа\+: добавление, удаление, чтение. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\Hypertarget{classDocument_acdbcbe550084e8c20f4f67eb229ad66a}\label{classDocument_acdbcbe550084e8c20f4f67eb229ad66a} 
+\index{Document@{Document}!Document@{Document}}
+\index{Document@{Document}!Document@{Document}}
+\doxysubsubsection{\texorpdfstring{Document()}{Document()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Document\+::\+Document (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Конструктор по умолчанию 
+
+\Hypertarget{classDocument_a9f8c1a77ca345b891b845db765889f7e}\label{classDocument_a9f8c1a77ca345b891b845db765889f7e} 
+\index{Document@{Document}!Document@{Document}}
+\index{Document@{Document}!Document@{Document}}
+\doxysubsubsection{\texorpdfstring{Document()}{Document()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Document\+::\+Document (\begin{DoxyParamCaption}\item[{string}]{name\+\_\+,  }\item[{string}]{format\+\_\+,  }\item[{string}]{patch\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Конструктор с параметрами 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name\+\_\+} & Имя документа \\
+\hline
+{\em format\+\_\+} & Формат документа \\
+\hline
+{\em patch\+\_\+} & Указание пути документа \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{classDocument_a0e3bed391336bedbc2622b5835ec4fb6}\label{classDocument_a0e3bed391336bedbc2622b5835ec4fb6} 
+\index{Document@{Document}!addShape@{addShape}}
+\index{addShape@{addShape}!Document@{Document}}
+\doxysubsubsection{\texorpdfstring{addShape()}{addShape()}}
+{\footnotesize\ttfamily void Document\+::add\+Shape (\begin{DoxyParamCaption}\item[{std\+::unique\+\_\+ptr$<$ \mbox{\hyperlink{classShape}{Shape}} $>$}]{sh }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Функция добавления примитива. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em sh} & Принятый аргумент перемещаем в вектор примитивов документа. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classDocument_af65c5e037c40327b49d56c68698720e3}\label{classDocument_af65c5e037c40327b49d56c68698720e3} 
+\index{Document@{Document}!getFormat@{getFormat}}
+\index{getFormat@{getFormat}!Document@{Document}}
+\doxysubsubsection{\texorpdfstring{getFormat()}{getFormat()}}
+{\footnotesize\ttfamily string Document\+::get\+Format (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classDocument_aed327ba907ab0ac17221cc27152c48d5}\label{classDocument_aed327ba907ab0ac17221cc27152c48d5} 
+\index{Document@{Document}!getInformationDocument@{getInformationDocument}}
+\index{getInformationDocument@{getInformationDocument}!Document@{Document}}
+\doxysubsubsection{\texorpdfstring{getInformationDocument()}{getInformationDocument()}}
+{\footnotesize\ttfamily string Document\+::get\+Information\+Document (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Функция вывода информации о документе. 
+
+\begin{DoxyReturn}{Returns}
+Строкову с указанием всем информации о документе (название, форма, путь). 
+\end{DoxyReturn}
+\Hypertarget{classDocument_abb7c2f488c4bf30eb250f438e92e74c8}\label{classDocument_abb7c2f488c4bf30eb250f438e92e74c8} 
+\index{Document@{Document}!getName@{getName}}
+\index{getName@{getName}!Document@{Document}}
+\doxysubsubsection{\texorpdfstring{getName()}{getName()}}
+{\footnotesize\ttfamily string Document\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classDocument_a0830e64c27c572e4c34f0c934bdb97f2}\label{classDocument_a0830e64c27c572e4c34f0c934bdb97f2} 
+\index{Document@{Document}!getPatch@{getPatch}}
+\index{getPatch@{getPatch}!Document@{Document}}
+\doxysubsubsection{\texorpdfstring{getPatch()}{getPatch()}}
+{\footnotesize\ttfamily string Document\+::get\+Patch (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classDocument_a4173b0b1960bc9dc7c04a3b71ee0599b}\label{classDocument_a4173b0b1960bc9dc7c04a3b71ee0599b} 
+\index{Document@{Document}!getPrimitive@{getPrimitive}}
+\index{getPrimitive@{getPrimitive}!Document@{Document}}
+\doxysubsubsection{\texorpdfstring{getPrimitive()}{getPrimitive()}}
+{\footnotesize\ttfamily string Document\+::get\+Primitive (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Функция возвращение списка примитивов, содержащихся в документе. 
+
+\begin{DoxyReturn}{Returns}
+Представлен в виде строки 
+\end{DoxyReturn}
+\Hypertarget{classDocument_a9f59c0e9ce5b0dbf9e89cdc2e132975c}\label{classDocument_a9f59c0e9ce5b0dbf9e89cdc2e132975c} 
+\index{Document@{Document}!getShapesSize@{getShapesSize}}
+\index{getShapesSize@{getShapesSize}!Document@{Document}}
+\doxysubsubsection{\texorpdfstring{getShapesSize()}{getShapesSize()}}
+{\footnotesize\ttfamily int Document\+::get\+Shapes\+Size (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Функция возвращает количество приитивов, содержашихся в документе. 
+
+\begin{DoxyReturn}{Returns}
+Целочисленное значение примитивов. 
+\end{DoxyReturn}
+\Hypertarget{classDocument_a5b72fa6117f2fe1d736cf1804737f6b3}\label{classDocument_a5b72fa6117f2fe1d736cf1804737f6b3} 
+\index{Document@{Document}!removeShape@{removeShape}}
+\index{removeShape@{removeShape}!Document@{Document}}
+\doxysubsubsection{\texorpdfstring{removeShape()}{removeShape()}}
+{\footnotesize\ttfamily void Document\+::remove\+Shape (\begin{DoxyParamCaption}\item[{int}]{pos }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+Функция удаления примитива. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em pos} & Номер тоого примитива, который нужно удалить. \\
+\hline
+\end{DoxyParams}
+\Hypertarget{classDocument_a68eeaa91d1fc3a01a88ca171f03d4a57}\label{classDocument_a68eeaa91d1fc3a01a88ca171f03d4a57} 
+\index{Document@{Document}!setFormat@{setFormat}}
+\index{setFormat@{setFormat}!Document@{Document}}
+\doxysubsubsection{\texorpdfstring{setFormat()}{setFormat()}}
+{\footnotesize\ttfamily void Document\+::set\+Format (\begin{DoxyParamCaption}\item[{const string \&}]{format\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classDocument_a1a8a06cf3b126c2d6eb27eeb861c0606}\label{classDocument_a1a8a06cf3b126c2d6eb27eeb861c0606} 
+\index{Document@{Document}!setName@{setName}}
+\index{setName@{setName}!Document@{Document}}
+\doxysubsubsection{\texorpdfstring{setName()}{setName()}}
+{\footnotesize\ttfamily void Document\+::set\+Name (\begin{DoxyParamCaption}\item[{const string \&}]{name\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+\Hypertarget{classDocument_a733c1d77fc0e9b00e15947d1e90cd6d8}\label{classDocument_a733c1d77fc0e9b00e15947d1e90cd6d8} 
+\index{Document@{Document}!setPatch@{setPatch}}
+\index{setPatch@{setPatch}!Document@{Document}}
+\doxysubsubsection{\texorpdfstring{setPatch()}{setPatch()}}
+{\footnotesize\ttfamily void Document\+::set\+Patch (\begin{DoxyParamCaption}\item[{const string \&}]{patch\+\_\+ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [inline]}}
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+/home/ubuntu/lesson-\/\+MVC/\mbox{\hyperlink{mvc_8cpp}{mvc.\+cpp}}\end{DoxyCompactItemize}
