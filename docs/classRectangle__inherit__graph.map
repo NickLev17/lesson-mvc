@@ -1,0 +1,5 @@
+<map id="Rectangle" name="Rectangle">
+<area shape="rect" id="Node000001" title="Класс Recctangle наследник класса Shape." alt="" coords="5,159,109,244"/>
+<area shape="rect" id="Node000002" href="$classShape.html" title="Абстрактный базовый класс Shape для всех фигур." alt="" coords="13,5,102,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="60,124,60,159,55,159,55,124"/>
+</map>

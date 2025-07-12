@@ -1,0 +1,7 @@
+<map id="Controller" name="Controller">
+<area shape="rect" id="Node000001" title="Класс Controller отвечает за общее управление программы." alt="" coords="124,213,313,419"/>
+<area shape="rect" id="Node000002" href="$classMyWindow.html" title="Класс MyWindow отвечает за представление данных пользователю" alt="" coords="5,25,221,131"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="139,130,169,197,164,199,134,132"/>
+<area shape="rect" id="Node000003" href="$classManageDocument.html" title="Класс ManageDocumen отвечает за работу с документами. Добавление документа, удаление,..." alt="" coords="246,5,402,151"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="294,152,273,200,268,197,289,150"/>
+</map>
