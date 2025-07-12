@@ -1,9 +1,0 @@
-<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="Node000000" href="$classShape.html" title="Абстрактный базовый класс Shape для всех фигур." alt="" coords="5,55,68,80"/>
-<area shape="rect" id="Node000001" href="$classCircuit.html" title="Класс Circuit наследник класса Shape." alt="" coords="127,5,191,31"/>
-<area shape="poly" id="edge1_Node000000_Node000001" title=" " alt="" coords="80,47,126,28,128,33,82,52"/>
-<area shape="rect" id="Node000002" href="$classRectangle.html" title="Класс Recctangle наследник класса Shape." alt="" coords="116,55,203,80"/>
-<area shape="poly" id="edge2_Node000000_Node000002" title=" " alt="" coords="82,65,116,65,116,70,82,70"/>
-<area shape="rect" id="Node000003" href="$classSquared.html" title="Класс Squared наследник класса Shape." alt="" coords="122,104,197,129"/>
-<area shape="poly" id="edge3_Node000000_Node000003" title=" " alt="" coords="82,82,128,101,126,106,80,87"/>
-</map>
